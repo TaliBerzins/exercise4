@@ -1,0 +1,63 @@
+body{
+background-image : url("pexels-emma-newquist-2136779295-29405615.jpg");
+background-size: cover;
+background-attachment: fixed;
+background-color: #C0C0C0;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+p{
+color:rgb(4, 249, 20);
+font-family: Arial, Helvetica, sans-serif;
+width: 300px;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+/* Default state for links with the class */
+.change-color {
+  color: rgba(55, 255, 0, 0.954); /* Initial color */
+  background-color: black;
+}
+
+/* Color change on hover */
+.change-color:hover {
+  color: rgb(230, 0, 255); /* Color when hovered */
+}
+
+a:visited {
+  color: #2fb6ff; /* Change to your desired color (e.g., red) */
+}
+
+.listchange{
+    list-style: upper-roman;
+    color: white;
+    width: 200px;
+}
+/* Setting glowing text effects to make my text more readable on the background image */
+
+
+.glowing-text {
+  /* Set the text color */
+  color: #ffffff; 
+  /* Create the glow effect */
+  text-shadow: 
+    0 0 5px #ff0000,   /* Red glow with 5px blur */
+    0 0 10px #ff0000,  /* Another red glow with 10px blur for intensity */
+    0 0 15px #ff0000;  /* Another red glow with 15px blur */
+}
+
+.glowing-text2 {
+  /* Set the text color */
+  color: #ffffff; 
+  background-color: black;
+  /* Create the glow effect */
+  text-shadow: 
+    0 0 5px #06f902,   /* Green glow with 5px blur */
+    0 0 10px #00ff15,  /* Another green glow with 10px blur for intensity */
+    0 0 15px #00ff11;  /* Another green glow with 15px blur */
+}
+
